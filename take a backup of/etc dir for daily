@@ -1,0 +1,8 @@
+###take a backup of /etc dir for daily @5pm using cron job###
+-------------------------------------------------------------
+
+#crontab -e ---------> [enter]
+
+* 17 *  * * tar /var/tar.etc.bz2 /etc
+
+[press ESC key ---> type :wq!]
