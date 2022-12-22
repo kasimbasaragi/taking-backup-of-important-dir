@@ -3,6 +3,6 @@
 
 #crontab -e ---------> [enter]
 
-* 17 *  * * tar /var/tar.etc.bz2 /etc
+* 17 *  * * tar -cvjf /var/tar.etc.bz2 /etc
 
 [press ESC key ---> type :wq!]
