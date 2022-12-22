@@ -1,0 +1,8 @@
+###take a backup of /home dir for daily @5pm using cron job###
+---------------------------------------------------------------------------
+
+#crontab -e
+
+* 17  * *   * tar -cvjf /var/tar.home.bz2 /home
+
+press esc key then type :wq!
